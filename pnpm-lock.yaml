@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@gmjs/compose-function':
+    specifier: ^0.0.2
+    version: 0.0.2
   '@gmjs/generic-types':
     specifier: ^0.0.1
     version: 0.0.1
@@ -593,6 +596,18 @@ packages:
     engines: { node: ^12.22.0 || ^14.17.0 || >=16.0.0 }
     dev: true
 
+  /@gmjs/compose-function@0.0.2:
+    resolution:
+      {
+        integrity: sha512-QuG9lFPiRzcmjIiHA5EdC8EjvWxGpjGa17WZcunHCUPmca8F7E6dU5WPLoHGrv7r91mjzB+ZMJRunGwXY6XAJQ==,
+      }
+    engines: { node: '>=16.0.0' }
+    dependencies:
+      '@gmjs/generic-functions': 0.0.1
+      '@gmjs/generic-types': 0.0.1
+      tslib: 2.6.2
+    dev: false
+
   /@gmjs/eslint-config@0.0.28(@typescript-eslint/eslint-plugin@6.15.0)(@typescript-eslint/parser@6.15.0)(eslint-config-prettier@9.1.0)(eslint-import-resolver-typescript@3.6.1)(eslint-plugin-import@2.29.1)(eslint-plugin-n@16.5.0)(eslint-plugin-react-refresh@0.4.5)(eslint-plugin-storybook@0.6.15)(eslint-plugin-unicorn@50.0.1)(eslint@8.56.0)(prettier@3.1.1)(typescript@5.3.3):
     resolution:
       {
@@ -696,6 +711,16 @@ packages:
       klaw-sync: 6.0.0
       tslib: 2.6.2
     dev: true
+
+  /@gmjs/generic-functions@0.0.1:
+    resolution:
+      {
+        integrity: sha512-EysFNLu8R6VR1AivcnY9RKK8SwDRnoQmcWZ/viQqnuroGjobWW+F/z3DCbb1mC3hCISGWO+E0aIy/85nT96veg==,
+      }
+    engines: { node: '>=16.0.0' }
+    dependencies:
+      tslib: 2.6.2
+    dev: false
 
   /@gmjs/generic-types@0.0.1:
     resolution:
